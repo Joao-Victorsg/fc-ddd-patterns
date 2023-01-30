@@ -1,3 +1,6 @@
+import CustomerCreatedEvent from "../../customer/event/customer-created.event";
+import SendConsoleLog1Handler from "../../customer/event/handler/send-console-log-1.handler";
+import SendConsoleLog2Handler from "../../customer/event/handler/send-console-log-2.handler";
 import SendEmailWhenProductIsCreatedHandler from "../../product/event/handler/send-email-when-product-is-created.handler";
 import ProductCreatedEvent from "../../product/event/product-created.event";
 import EventDispatcher from "./event-dispatcher";
